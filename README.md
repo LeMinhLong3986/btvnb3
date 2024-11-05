@@ -21,7 +21,7 @@
    minikube start --driver=docker
 2. Cấu hình Docker Daemon cho Minikube:
    ```bash
-   minikube -p minikube docker-env --shell=powershell | Invoke-Expression
+   & minikube -p minikube docker-env --shell=powershell | Invoke-Expression
 
 3. Build Docker Image:
    ```bash
